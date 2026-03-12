@@ -16,23 +16,29 @@
 
 <body>
 
-<!-- Navigation Bar -->
-
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
 <div class="container">
 
-<a class="navbar-brand" href="#">My Profile</a>
+<a class="navbar-brand">My Profile</a>
 
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+<button class="navbar-toggler"
+type="button"
+data-bs-toggle="collapse"
+data-bs-target="#navbarNav">
 
 <span class="navbar-toggler-icon"></span>
 
 </button>
 
-<div class="collapse navbar-collapse" id="navbarNav">
+<div class="collapse navbar-collapse"
+id="navbarNav">
 
 <ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+<a class="nav-link" href="#home">Home</a>
+</li>
 
 <li class="nav-item">
 <a class="nav-link" href="#about">About</a>
@@ -58,19 +64,19 @@
 
 </nav>
 
-
 <!-- Hero Section -->
 
-<section class="text-center p-5 bg-light">
+<section id="home" class="text-center hero">
 
 <img src="profile.jpg"
-width="200"
-class="rounded-circle">
+class="profile-img">
 
 <h1>Resego Mokgweetsi</h1>
 
-<p>
+<p class="lead">
+
 Computer Systems Engineering student and beginner web developer.
+
 </p>
 
 </section>
@@ -78,17 +84,22 @@ Computer Systems Engineering student and beginner web developer.
 
 <!-- About Section -->
 
-<section id="about" class="container p-4">
+<<section id="about" class="container section">
 
-<h2>About</h2>
+<h2>About Me</h2>
 
 <p>
-I am a Computer Systems Engineering student interested in
-technology and programming.
+
+I am a Computer Systems Engineering student passionate about
+technology, networking and software development.
+
 </p>
 
 <p>
-I enjoy learning about networking and building websites.
+
+I am currently developing my skills in HTML, CSS, Java and
+network fundamentals while building practical projects.
+
 </p>
 
 </section>
@@ -96,16 +107,19 @@ I enjoy learning about networking and building websites.
 
 <!-- Skills Section -->
 
-<section id="skills" class="container p-4">
+<section id="skills" class="container section">
 
 <h2>Skills</h2>
 
 <ul>
 
 <li>HTML</li>
+
 <li>CSS</li>
-<li>Java</li>
-<li>Networking Basics</li>
+
+<li>Java Programming</li>
+
+<li>Networking Fundamentals</li>
 
 </ul>
 
@@ -114,28 +128,36 @@ I enjoy learning about networking and building websites.
 
 <!-- Education Section -->
 
-<section id="education" class="container p-4">
+<section id="education" class="container section">
 
 <h2>Education</h2>
 
-<ul>
+<p>
 
-<li>Bachelor of Computer Systems Engineering</li>
-<li>Botswana Accountancy College (BAC)</li>
-<li>Expected Graduation: 2030</li>
+Bachelor of Computer Systems Engineering
 
-</ul>
+</p>
+
+<p>
+
+Botswana Accountancy College
+
+</p>
+
+<p>
+
+Expected Graduation: 2027
+
+</p>
 
 </section>
 
 
 <!-- Contact Section -->
 
-<section id="contact" class="container p-4">
+<section id="contact" class="container section">
 
 <h2>Contact</h2>
-
-<p>Name: Resego Mokgweetsi</p>
 
 <p>Email: resegomokgweetsi@gmail.com</p>
 
